@@ -17,5 +17,6 @@
           - 'style.scss'
           - '_grid.scss'
           - '_reset.scss'
+          - '_custom.scss'
  - commit ready configuration
  - copy 'assets' and 'images' to './public'
