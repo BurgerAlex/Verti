@@ -1,0 +1,20 @@
+@mixin tablet {
+  @media screen and (min-width: 1000px) {
+    max-width: 960px;
+    margin: 0 auto;
+    @content;
+  }
+}
+@mixin desktop {
+  @media screen and (min-width: 1250px){
+    max-width :1200px;
+    margin: 0 auto;
+    @content;
+  }
+}
+@mixin button {
+  font-weight: 800;
+  color: white;
+  font-size: 1.2em;
+  background-color:$button-featured-color;
+}
